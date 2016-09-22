@@ -1,0 +1,13 @@
+before running:
+please put logs.xsl,current_price.xsl and temp.txt into C root
+C://logs.xsl
+C://current_price.xsl
+C://temp.txt are necessary.
+
+IN temp.txt
+50
+100
+150
+200
+250
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="current_price.xsl"?>
+<Equipment_shop><Transaction><Item NO="0"><Price>51</Price></Item><Item NO="1"><Price>92</Price></Item><Item NO="2"><Price>147</Price></Item><Item NO="3"><Price>196</Price></Item><Item NO="4"><Price>230</Price></Item></Transaction><Transaction><Item NO="0"><Price>49</Price></Item><Item NO="1"><Price>90</Price></Item><Item NO="2"><Price>144</Price></Item><Item NO="3"><Price>205</Price></Item><Item NO="4"><Price>225</Price></Item></Transaction></Equipment_shop>

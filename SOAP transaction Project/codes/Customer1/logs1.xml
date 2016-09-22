@@ -1,0 +1,19 @@
+<Equipment_shop>
+<Transaction id="0">
+<Item NO="0">
+<Price>50</Price>
+</Item>
+<Item NO="1">
+<Price>100</Price>
+</Item>
+<Item NO="2">
+<Price>150</Price>
+</Item>
+<Item NO="3">
+<Price>200</Price>
+</Item>
+<Item NO="4">
+<Price>250</Price>
+</Item>
+</Transaction>
+</Equipment_shop>
