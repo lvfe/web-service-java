@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- DTD demo by Fengjiao Lv / Mid Sweden University -->
+<!-- DTD Validator: http://www.w3schools.com/dom/dom_validate.asp -->
+
+<!DOCTYPE Sport [
+  <!ELEMENT Sport (Event*)>
+  <!ELEMENT Event (EventName,Race*)>
+  <!ELEMENT EventName (#PCDATA)>
+  <!ELEMENT Race (RaceNumber,RaceDistance,RaceComment?,Horse*)>
+  <!ELEMENT RaceNumber (#PCDATA)>
+  <!ELEMENT RaceDistance (#PCDATA)>
+  <!ELEMENT RaceComment (#PCDATA)> 
+  <!ELEMENT Horse (HorseName,Teamster,HorseComment?)>
+  <!ELEMENT HorseName (#PCDATA)>
+  <!ELEMENT Teamster (TeamsterName,TeamsterComment?)> 
+  <!ELEMENT TeamsterName (#PCDATA)>
+  <!ELEMENT TeamsterComment (#PCDATA)>
+  <!ELEMENT HorseComment (#PCDATA)>
+  
+
+  <!ATTLIST Horse status (active|cancelled) "active">  
+ 
+]> 
+
+
+<Sport>
+	<Event>
+		<EventName>Sports Meeting</EventName>
+		
+		<Race>
+			<RaceNumber>No.1</RaceNumber>
+			<RaceDistance>300m</RaceDistance> 
+			<RaceComment>good!</RaceComment> 
+			<Horse status="active">
+				<HorseName>Mary</HorseName>
+				<Teamster>
+					<TeamsterName>red team </TeamsterName>
+					<TeamsterComment>good </TeamsterComment>
+				</Teamster>
+			    <HorseComment >good</HorseComment>
+			</Horse>
+		</Race>
+
+  	
+	</Event>
+</Sport>
